@@ -11,6 +11,8 @@
    \sql
    CREATE DATABASE dba_project;
    GRANT ALL PRIVILEGES ON DATABASE dba_project TO admin;
+   GRANT ALL PRIVILEGES ON SCHEMA public TO admin;
+   GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO admin;
 
 4. Updated pg-_hba.conf:
    \bash
