@@ -25,3 +25,18 @@ To set up the schema:
 cd scripts/schema
 ./setup_database.sh
 
+
+## Backup System
+
+### Manual Backup
+\bash
+./scripts/backups/pg_backup.sh
+
+### Manual Restore
+\bash
+./scripts/backups/pg_restore.sh
+
+### Automated Backups
+- Configured via cron to run daily at 6 pm every friday
+- Logs to scripts/backups/backup.log
+
