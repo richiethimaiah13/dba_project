@@ -40,3 +40,18 @@ cd scripts/schema
 - Configured via cron to run daily at 6 pm every friday
 - Logs to scripts/backups/backup.log
 
+## Database Monitoring
+
+### Monitoring Features:
+- Connection health check
+- Table size tracking
+- Database size tracking
+- Active connections
+
+### Files:
+- basic_monitor.py: Collects and logs metrics
+- run_monitor.sh: script to run basic_monitor.py
+
+### Usage:
+\bash
+/home/ubuntu/postgres-dba-project/python/monitoring/run_monitor.sh
