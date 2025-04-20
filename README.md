@@ -54,4 +54,4 @@ cd scripts/schema
 
 ### Usage:
 \bash
-/home/ubuntu/postgres-dba-project/python/monitoring/run_monitor.sh
+./python/monitoring/run_monitor.sh
